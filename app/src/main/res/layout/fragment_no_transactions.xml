@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.livespace.com.ecobankmerchant.NoTransactions">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:paddingTop="50dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="95dp"
+            android:layout_gravity="center|center"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_cancel_black_24dp"
+                android:layout_gravity="center"
+                android:id="@+id/networkImage"
+                />
+            <android.livespace.com.ecobankmerchant.view.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/no_txn_found"
+                android:layout_below="@id/networkImage"
+                android:gravity="center"
+                android:id="@+id/networkMessage"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:paddingTop="@dimen/padding_30"
+                />
+
+            <Button
+                android:id="@+id/searchTryAgain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="180dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/searchagain"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:gravity="center"
+                android:textColor="@color/buttonwhite"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                tools:ignore="MissingPrefix"
+                android:background="@drawable/myactivatebutton" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

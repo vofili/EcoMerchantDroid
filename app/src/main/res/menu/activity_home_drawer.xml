@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/masterpasshome"
+            android:icon="@drawable/mphalf"
+            android:title="@string/mp_menu_title"  />
+        <item
+            android:id="@+id/mvisahome"
+            android:icon="@drawable/mvhalftwo"
+            android:enabled="false"
+            android:title="@string/mv_menu_title" />
+        <item
+            android:id="@+id/generateqrcode"
+            android:icon="@drawable/qrhalf"
+            android:title="@string/genqr_code_title" />
+        <item
+            android:id="@+id/transactions"
+            android:icon="@drawable/ic_swap_horiz_black_24dp"
+            android:title="@string/trn_title" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/logout_title" />
+    </group>
+
+
+</menu>

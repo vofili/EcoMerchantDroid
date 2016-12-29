@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/transactionsviewlayout"
+    tools:context="android.livespace.com.ecobankmerchant.TransactionsListing">
+
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp" android:id="@+id/swipetrn" >
+
+    <ListView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        android:layout_gravity="top" />
+</android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

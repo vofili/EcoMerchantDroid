@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00587C</color>
+    <color name="colorPrimaryDark">#00678D</color>
+    <color name="colorAccent">#3C8900</color>
+    <color name="mpcolor">#FD7209</color>
+    <color name="splash_bg_color">#D0D5D9</color>
+    <color name="splash_blue">#00587C</color>
+    <color name="splash_bg_ecobankcolor">#ffffff</color>
+    <color name="material_red">#f44336</color>
+    <color name="ecobankgreen">#C2E04A</color>
+    <color name="buttonwhite">#ffffff</color>
+    <color name="accent">#3C8930</color>
+    <color name="materialgreen">#009688</color>
+    <color name="materialbluegrey">#607D8B</color>
+    <color name="materiallightgree">#8BC34A</color>
+    <color name="airtime_number_color">#B6B6B6</color>
+</resources>

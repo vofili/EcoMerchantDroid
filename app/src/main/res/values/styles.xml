@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditText</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/el</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:editTextStyle">@style/RobotoEditText</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:editTextStyle">@style/RobotoEditText</item>
+    </style>>
+
+    <style name="AppTheme.ResetAcvtButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="colorButtonNormal">@color/buttonwhite</item>
+        <item name="android:textColor">@color/splash_blue</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:editTextStyle">@style/RobotoEditText</item>
+    </style>
+
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@string/roboto_regular</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@string/roboto_medium</item>
+    </style>
+
+    <style name="RobotoEditText" parent="android:Widget.Holo.EditText">
+        <item name="android:fontFamily">@string/roboto_regular</item>
+    </style>
+
+</resources>

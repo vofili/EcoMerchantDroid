@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.livespace.com.ecobankmerchant.MasterPassHome">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/masterpasslogowebportal"/>
+
+        <View android:id="@+id/primerdivisor"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:layout_width="350dp"
+            android:background="#000000" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/masterpass_title"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/usermsg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20013901"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/splash_blue"
+            android:layout_marginTop="450dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/termid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHINEDU A OBI"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="480dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/merchantname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22 OLUKAYODE AKINSANYA STREET OKOTA ISOLO LAGOS"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="510dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/merchantaddress"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LA, LA, NGA"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="540dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/merchantlga"/>
+<!--
+    <ImageView
+        android:layout_width="355dp"
+        android:layout_height="355dp"
+        android:id="@+id/qrimage"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/ic_crop_free_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+-->
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/qrcode"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/actualexportedqrcode"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+
+        <View android:id="@+id/lowerdivisor"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="560dp"
+            android:layout_width="350dp"
+            android:background="#000000" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lowerdivisor"
+            android:src="@drawable/mplogothree"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+   >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_marginTop="7dp"
+        android:id="@+id/linearLayout">
+       <!--
+        <TextView android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/accent"
+            android:text="TYPE"
+            android:id="@+id/transtypelabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />-->
+<TextView android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:paddingLeft="5dp"
+    android:layout_weight="1"
+    android:fontFamily="@string/roboto_black"
+    android:layout_width="wrap_content"
+    android:drawableTint="@color/accent"
+    android:textColor="@color/accent"
+    android:textSize="16dp"
+    android:drawablePadding="5dp"
+   android:text="CREDIT"
+    android:id="@+id/transtype"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+       <!--
+        <TextView android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/accent"
+            android:text="AMOUNT"
+            android:id="@+id/transamtlabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+            -->
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+             android:paddingRight="3dp"
+            android:textColor="@color/accent"
+            android:drawableTint="@color/accent"
+            android:text="GHS"
+            android:inputType="numberDecimal"
+            android:layout_gravity="top|right"
+            android:id="@+id/transccy"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/accent"
+            android:drawableTint="@color/accent"
+            android:text="3007.80"
+            android:inputType="numberDecimal"
+            android:layout_gravity="top|right"
+            android:id="@+id/transamt"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+      <!--  <TextView android:layout_height="wrap_content"
+            android:paddingLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/accent"
+            android:text="Terminal ID"
+            android:id="@+id/transtidlabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:paddingLeft="5dp"
+            android:drawableTint="@color/accent"
+            android:text="0667482229933"
+            android:id="@+id/tid"
+            xmlns:android="http://schemas.android.com/apk/res/android" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--
+        <TextView android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/accent"
+            android:text="Desc"
+            android:id="@+id/transnarrlabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+        -->
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_below="@+id/transdesc"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:drawableTint="@color/accent"
+            android:textSize="10dp"
+            android:text="TRN IFO BO GERSHON YAO-DABLU FOR 1602180003NU00786 IDD"
+            android:id="@+id/transnarr"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_below="@+id/transtype"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:drawableTint="@color/accent"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_arrow_forward_black_24dp"
+            android:text="MONEY SEND DEPOSIT"
+            android:id="@+id/transdesc"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+
+            android:text="2016-06-28T00:00:00.000Z"
+            android:id="@+id/transdate"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+        <!--
+        <TextView android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/accent"
+            android:text="Date"
+            android:id="@+id/transdatelabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+            -->
+
+      <!--  <TextView android:layout_height="wrap_content"
+            android:layout_below="@+id/transtype"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:drawableTint="@color/accent"
+            android:textSize="10dp"
+            android:text="001RIBT161600334"
+            android:id="@+id/transref"
+            xmlns:android="http://schemas.android.com/apk/res/android" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_marginTop="50dp" android:paddingBottom="0dp">
+        <TextView android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+
+            android:textColor="@color/splash_blue"
+            android:text="REF"
+            android:id="@+id/transreflabel"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_below="@+id/transtype"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/splash_blue"
+            android:layout_width="wrap_content"
+            android:drawableTint="@color/splash_blue"
+            android:textSize="10dp"
+            android:text="001RIBT161600334"
+            android:id="@+id/transref"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <!--
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/airtime_number_color"
+            android:drawableTint="@color/airtime_number_color"
+            android:text=""
+
+            android:drawableRight="@drawable/ic_info_outline_black_24dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="top|right"
+            android:id="@+id/transinfo"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+-->
+      </LinearLayout>
+
+
+  </RelativeLayout>

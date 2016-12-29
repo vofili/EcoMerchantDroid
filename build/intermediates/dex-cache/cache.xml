@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_34e141ef71f41daccb4cef1e8dc9ef35682d181d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_069ddf6dcddbbfad29eec1d27f54f2e9389b4168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_7c19c2e9a2494fd2f3ffed2ac596b590760a62fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_ca5738ba04c74f839fb639c3a78bf9004d235458.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/gson-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/gson-2.2.2_a18045ec120eccb597a2ad96aecbde903809c47d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_9898f84db22727e4ebd13c8165dc42024fb81f83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_a7da3b173383c79ed7d3aaa06a1a041bbaf59947.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/okhttp-3.4.2_926975c1c76d5481ab2c0311a76aca6cc8695f4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_8c35454b9a577b47baa335ebcdaf9ef6587b1243.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_96a92fe498aae70769086cab9eebbbca986bf0ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_341b906a554349e81bbfce1d36dca71543febb48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_bcb7c0491b487066b57a840489e6026fda6a4922.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_eb08e55ead0a4989f6adb439f5a5db628693306e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_6d9a17b9146b634b1f8c33a6be84508f547cc5cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_d530fa150105bc99e4b50758435f0d53919b55a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_a21c46a67651231cebd25693a87eb44947c05fe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_7e26c1e0424037d694c2610638e315ef9a15d276.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_6095de147f021a15fe6124f8b3eab1324b3e6252.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-10.0.1_e36f8789cabd9bd56fc17858c66ebb166b6e1a2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/okio-1.11.0_4a2820ba31f1bd3c7f3a4b8cfc6837e405e49ae0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_371a1a11d1a9d7ad4114136591c075f284274e8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_56fd2cf62014ffd6a947905cd210d46516f1747b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/libs/zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cdfab75375b735b144145a2e85a50e77534daed0">
+        <dex dex="/Users/val/Desktop/Android/Projects/EcobankMerchantAppProject/EcobankMerchant/app/build/intermediates/pre-dexed/debug/zxing_a8c0e0ab985f0b19c8c70349b1a185a9ead12953.jar" />
+    </item>
+
+</items>

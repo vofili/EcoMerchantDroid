@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="android.livespace.com.ecobankmerchant.NotificationPaid"
+    tools:showIn="@layout/activity_notification_paid">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_gravity=""
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/ecobanklogologin"
+            android:paddingLeft="60dp" android:paddingRight="60dp"/>
+        <TextView
+            android:gravity="center"
+        android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_notification"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="@string/roboto_black"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_notification_success_status"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="20dp"
+            android:id="@+id/noteificationnarration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notificationpredescription"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+
+            android:textSize="30dp"
+            android:textColor="@color/splash_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationamount"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationpostdescription"
+            android:text="@string/notificationpostdescription"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/noteref"
+            android:gravity="center"
+            android:textSize="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REF:90339459599964"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/notedate"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16-Dec-2016 08:15:30"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/takemehome"
+            android:gravity="center"
+            android:textSize="10dp"
+
+            android:background="@drawable/myactivatebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notificationok"/>
+ </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

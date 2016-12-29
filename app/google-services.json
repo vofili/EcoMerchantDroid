@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848182433406",
+    "firebase_url": "https://merchant-app-9d15f.firebaseio.com",
+    "project_id": "merchant-app-9d15f",
+    "storage_bucket": "merchant-app-9d15f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848182433406:android:e743c65d41bfd66a",
+        "android_client_info": {
+          "package_name": "android.livespace.com.ecobankmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848182433406-r0likjg1d775be9ue212i0beaj95keco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.livespace.com.ecobankmerchant",
+            "certificate_hash": "E31F711F583B1961EB41109170F47B84508FF5F0"
+          }
+        },
+        {
+          "client_id": "848182433406-om7v0uco5oo85b2a6k0qntc0lrk9bc0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YItG_4jucSt2r7QTlcMWeNs--R0evJA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848182433406-om7v0uco5oo85b2a6k0qntc0lrk9bc0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.livespace.com.ecobankmerchant">
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newiconmerchantapp"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/loginactivityname"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Accountactivation"
+            android:label="@string/title_activity_accountactivation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".setpassword"
+            android:label="@string/title_activity_setpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPassword"
+            android:label="@string/title_activity_reset_password"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Utils.NotificationActivity" />
+        <activity
+            android:name=".NotificationPaid"
+            android:label="@string/title_activity_notification_paid"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".paymentNotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".paymentNotificationInstantId">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Refinedtransactionsactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPinMerchantInput"
+            android:label="@string/title_activity_reset_pin_merchant_input"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPinOTPInput"
+            android:label="@string/title_activity_reset_pin_otpinput"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TransactionsFetchList" />
+        <activity
+            android:name=".Success"
+            android:label="@string/title_activity_success"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".disabledmerchant"
+            android:label="@string/title_activity_disabledmerchant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NetworkNoConnection" />
+        <activity android:name=".messageboard" />
+        <activity android:name=".UpgradeVersion" />
+
+
+    </application>
+
+</manifest>
